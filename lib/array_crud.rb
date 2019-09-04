@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  push_entry = real_array.push["pushed entry"]
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  unshift_entry = real_array.unshift["unshift entry"]
 end
 
 def remove_element_from_end_of_array(array)
