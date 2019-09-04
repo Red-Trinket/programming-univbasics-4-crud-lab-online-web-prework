@@ -23,17 +23,18 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  A = real_array[1]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  B = real_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  C = real_array.length - 1
+  D = real_array[C]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  real_array[0] = "new element"
 end
