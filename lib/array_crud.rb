@@ -7,19 +7,19 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  push_entry = real_array.push["pushed entry"]
+  real_array.push["pushed entry"]
 end
 
 def add_element_to_start_of_array(array, element)
-  unshift_entry = real_array.unshift["unshift entry"]
+  real_array.unshift["unshift entry"]
 end
 
 def remove_element_from_end_of_array(array)
-  popped_element = real_array.pop 
+  real_array.pop 
 end
 
 def remove_element_from_start_of_array(array)
-  shifted_element = real_array.shift 
+  real_array.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
